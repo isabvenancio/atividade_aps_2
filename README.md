@@ -38,8 +38,7 @@ A documentação do projeto está organizada nos seguintes arquivos:
 ```text
 VazaApp/
 ├── README.md
-└── docs/
-    ├── regras-negocio.md
-    ├── requisitos-funcionais.md
-    └── requisitos-nao-funcionais.md
+├── regras-negocio.md
+├── requisitos-funcionais.md
+└── requisitos-nao-funcionais.md
 ```
