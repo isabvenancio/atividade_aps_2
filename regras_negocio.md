@@ -228,45 +228,7 @@ RF-09.
 **Observações:**  
 A nova geração deve reutilizar as informações já existentes no pedido.
 
-## RN-07 — Registro das sugestões no histórico
-
-**Título:**  
-Registro de sugestões apresentadas.
-
-**Descrição:**  
-Toda sugestão apresentada ao usuário deve ser registrada no histórico de uso.
-
-**Origem:**  
-Necessidade de histórico e rastreabilidade das utilizações do VazaApp.
-
-**Stakeholders envolvidos:**  
-Usuário.
-
-**Condição:**  
-Aplicada sempre que uma sugestão for gerada e apresentada com sucesso ao usuário.
-
-**Regra:**  
-Cada sugestão apresentada deve gerar um registro correspondente no histórico de uso.
-
-**Exceções:**  
-Tentativas de geração que não resultarem em uma sugestão apresentada ao usuário não devem ser registradas como utilização concluída.
-
-**Dados envolvidos:**  
-Usuário, sugestão gerada, histórico de uso, data e hora.
-
-**Prioridade:**  
-Alta.
-
-**Status:**  
-Proposto.
-
-**Requisitos relacionados:**  
-RF-10, RNF-03.
-
-**Observações:**  
-O histórico permite consultar e rastrear sugestões anteriormente geradas.
-
-## RN-08 — Feedback sobre a sugestão
+## RN-07 — Feedback sobre a sugestão
 
 **Título:**  
 Registro de feedback do usuário.
@@ -304,83 +266,7 @@ RF-11.
 **Observações:**  
 O feedback poderá futuramente ser utilizado para avaliar a qualidade das sugestões.
 
-## RN-09 — Associação do contato ao usuário
-
-**Título:**  
-Propriedade dos contatos cadastrados.
-
-**Descrição:**  
-Um contato deve obrigatoriamente estar associado ao usuário que o cadastrou.
-
-**Origem:**  
-Gerenciamento de contatos do VazaApp.
-
-**Stakeholders envolvidos:**  
-Usuário.
-
-**Condição:**  
-Aplicada sempre que um novo contato for cadastrado.
-
-**Regra:**  
-Todo contato cadastrado deve possuir associação com o usuário responsável por seu cadastro.
-
-**Exceções:**  
-Não identificadas no escopo atual.
-
-**Dados envolvidos:**  
-Usuário e contato.
-
-**Prioridade:**  
-Alta.
-
-**Status:**  
-Proposto.
-
-**Requisitos relacionados:**  
-RF-12.
-
-**Observações:**  
-A associação permite manter os contatos separados entre os diferentes usuários do sistema.
-
-## RN-10 — Propriedade do histórico de utilização
-
-**Título:**  
-Histórico exclusivo do usuário.
-
-**Descrição:**  
-O histórico de utilização deve pertencer exclusivamente ao usuário que realizou a ação.
-
-**Origem:**  
-Controle e organização do histórico de uso do VazaApp.
-
-**Stakeholders envolvidos:**  
-Usuário.
-
-**Condição:**  
-Aplicada sempre que uma ação for registrada no histórico.
-
-**Regra:**  
-Cada registro do histórico deve ser associado exclusivamente ao usuário responsável pela ação registrada.
-
-**Exceções:**  
-Não identificadas no escopo atual.
-
-**Dados envolvidos:**  
-Usuário, histórico de uso, sugestão e ação realizada.
-
-**Prioridade:**  
-Crítica.
-
-**Status:**  
-Proposto.
-
-**Requisitos relacionados:**  
-RF-13, RNF-02.
-
-**Observações:**  
-Esta regra também contribui para a privacidade das informações dos usuários.
-
-## RN-11 — Privacidade das informações do usuário
+## RN-08 — Privacidade das informações do usuário
 
 **Título:**  
 Isolamento dos dados pessoais e de contexto.
@@ -418,7 +304,7 @@ RNF-01, RNF-02.
 **Observações:**  
 Caso futuramente existam outros perfis de acesso, esta regra deverá ser revisada.
 
-## RN-12 — Rastreabilidade das sugestões
+## RN-09 — Rastreabilidade das sugestões
 
 **Título:**  
 Rastreabilidade das sugestões geradas.

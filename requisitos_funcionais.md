@@ -319,69 +319,7 @@ A definir.
 **Casos de teste relacionados:**  
 A definir.
 
-## RF-06 — Selecionar ou informar destinatário
-
-**Título:**  
-Definição do destinatário do pedido.
-
-**Descrição:**  
-O sistema deve permitir que o usuário selecione ou informe o destinatário do pedido de desculpas.
-
-**Objetivo:**  
-Identificar para quem a sugestão de desculpa será direcionada.
-
-**Stakeholders:**  
-Usuário e destinatário.
-
-**Ator principal:**  
-Usuário.
-
-**Pré-condições:**  
-- Usuário autenticado.
-- Pedido criado.
-
-**Entradas:**  
-- Destinatário selecionado ou informado.
-- Tipo de destinatário.
-
-**Processamento esperado:**  
-O sistema deve associar as informações do destinatário ao pedido de desculpas.
-
-**Saídas/Resultados:**  
-Destinatário definido no pedido.
-
-**Pós-condições:**  
-O pedido passa a possuir informações sobre o destinatário.
-
-**Fluxos alternativos/exceções:**  
-- Destinatário não informado.
-- Contato selecionado inválido.
-
-**Regras de negócio relacionadas:**  
-RN-03.
-
-**Prioridade:**  
-Crítica.
-
-**Status:**  
-Proposto.
-
-**Critérios de aceite:**  
-- Permitir selecionar um destinatário.
-- Permitir informar um destinatário quando necessário.
-- Associar corretamente o destinatário ao pedido.
-- Impedir a geração quando o destinatário obrigatório não estiver definido.
-
-**Casos de uso relacionados:**  
-A definir.
-
-**Tarefas relacionadas:**  
-A definir.
-
-**Casos de teste relacionados:**  
-A definir.
-
-## RF-07 — Gerar sugestão personalizada
+## RF-06 — Gerar sugestão personalizada
 
 **Título:**  
 Geração de sugestão de desculpa.
@@ -450,7 +388,7 @@ A definir.
 **Casos de teste relacionados:**  
 A definir.
 
-## RF-08 — Selecionar desculpa por categoria
+## RF-07 — Selecionar desculpa por categoria
 
 **Título:**  
 Seleção de desculpa compatível.
@@ -512,7 +450,7 @@ A definir.
 **Casos de teste relacionados:**  
 A definir.
 
-## RF-09 — Solicitar nova sugestão
+## RF-08 — Solicitar nova sugestão
 
 **Título:**  
 Nova sugestão para o mesmo pedido.
@@ -573,7 +511,7 @@ A definir.
 **Casos de teste relacionados:**  
 A definir.
 
-## RF-10 — Registrar sugestão no histórico
+## RF-09 — Registrar sugestão no histórico
 
 **Título:**  
 Registro automático da sugestão gerada.
@@ -636,7 +574,7 @@ A definir.
 **Casos de teste relacionados:**  
 A definir.
 
-## RF-11 — Fornecer feedback sobre sugestão
+## RF-10 — Fornecer feedback sobre sugestão
 
 **Título:**  
 Avaliação da sugestão.
@@ -695,191 +633,7 @@ A definir.
 **Casos de teste relacionados:**  
 A definir.
 
-## RF-12 — Cadastrar contatos
-
-**Título:**  
-Cadastro de contatos.
-
-**Descrição:**  
-O sistema deve permitir cadastrar contatos, contendo nome, tipo de relacionamento, nível de proximidade e contexto principal.
-
-**Objetivo:**  
-Permitir o armazenamento de informações de possíveis destinatários para reutilização em pedidos futuros.
-
-**Stakeholders:**  
-Usuário.
-
-**Ator principal:**  
-Usuário.
-
-**Pré-condições:**  
-- Usuário autenticado.
-
-**Entradas:**  
-- Nome.
-- Tipo de relacionamento.
-- Nível de proximidade.
-- Contexto principal.
-
-**Processamento esperado:**  
-O sistema deve validar os dados e cadastrar o contato associado ao usuário.
-
-**Saídas/Resultados:**  
-Contato cadastrado.
-
-**Pós-condições:**  
-O contato passa a estar disponível para utilização pelo usuário que realizou o cadastro.
-
-**Fluxos alternativos/exceções:**  
-- Dados obrigatórios ausentes.
-- Dados inválidos.
-
-**Regras de negócio relacionadas:**  
-RN-09.
-
-**Prioridade:**  
-Alta.
-
-**Status:**  
-Proposto.
-
-**Critérios de aceite:**  
-- Permitir o cadastro de contatos.
-- Registrar nome, relacionamento, proximidade e contexto.
-- Associar o contato ao usuário responsável pelo cadastro.
-- Não permitir que o contato seja associado a outro usuário sem autorização.
-
-**Casos de uso relacionados:**  
-A definir.
-
-**Tarefas relacionadas:**  
-A definir.
-
-**Casos de teste relacionados:**  
-A definir.
-
-## RF-13 — Consultar histórico
-
-**Título:**  
-Consulta ao histórico do usuário.
-
-**Descrição:**  
-O sistema deve permitir que o usuário consulte seu histórico de sugestões e pedidos anteriores.
-
-**Objetivo:**  
-Permitir que o usuário recupere informações sobre utilizações anteriores do VazaApp.
-
-**Stakeholders:**  
-Usuário.
-
-**Ator principal:**  
-Usuário.
-
-**Pré-condições:**  
-- Usuário autenticado.
-
-**Entradas:**  
-- Identificação do usuário autenticado.
-
-**Processamento esperado:**  
-O sistema deve recuperar os registros de histórico pertencentes exclusivamente ao usuário.
-
-**Saídas/Resultados:**  
-Lista de pedidos e sugestões anteriores.
-
-**Pós-condições:**  
-Nenhuma alteração obrigatória nos dados do sistema.
-
-**Fluxos alternativos/exceções:**  
-- Usuário ainda não possui histórico.
-
-**Regras de negócio relacionadas:**  
-RN-10.
-
-**Prioridade:**  
-Alta.
-
-**Status:**  
-Proposto.
-
-**Critérios de aceite:**  
-- Exibir somente o histórico do usuário autenticado.
-- Exibir pedidos e sugestões anteriores.
-- Informar quando não houver registros disponíveis.
-- Impedir o acesso ao histórico de outros usuários.
-
-**Casos de uso relacionados:**  
-A definir.
-
-**Tarefas relacionadas:**  
-A definir.
-
-**Casos de teste relacionados:**  
-A definir.
-
-## RF-14 — Utilizar contato cadastrado
-
-**Título:**  
-Utilização de contato como destinatário.
-
-**Descrição:**  
-O sistema deve permitir utilizar um contato já cadastrado como destinatário de um novo pedido de desculpas.
-
-**Objetivo:**  
-Facilitar o preenchimento de novos pedidos reutilizando informações previamente cadastradas.
-
-**Stakeholders:**  
-Usuário.
-
-**Ator principal:**  
-Usuário.
-
-**Pré-condições:**  
-- Usuário autenticado.
-- Existência de pelo menos um contato cadastrado pelo usuário.
-- Novo pedido de desculpas em criação.
-
-**Entradas:**  
-- Contato selecionado.
-
-**Processamento esperado:**  
-O sistema deve recuperar as informações do contato selecionado e utilizá-las como dados do destinatário no pedido.
-
-**Saídas/Resultados:**  
-Contato definido como destinatário do pedido.
-
-**Pós-condições:**  
-O pedido passa a possuir as informações do contato selecionado.
-
-**Fluxos alternativos/exceções:**  
-- Usuário não possui contatos cadastrados.
-- Contato selecionado não pertence ao usuário.
-
-**Regras de negócio relacionadas:**  
-RN-09, RN-11.
-
-**Prioridade:**  
-Média.
-
-**Status:**  
-Proposto.
-
-**Critérios de aceite:**  
-- Listar somente contatos pertencentes ao usuário.
-- Permitir selecionar um contato cadastrado.
-- Preencher as informações do destinatário com os dados do contato.
-- Impedir utilização de contato pertencente a outro usuário.
-
-**Casos de uso relacionados:**  
-A definir.
-
-**Tarefas relacionadas:**  
-A definir.
-
-**Casos de teste relacionados:**  
-A definir.
-
-## RF-15 — Associar desculpa a categoria
+## RF-11 — Associar desculpa a categoria
 
 **Título:**  
 Categorização das desculpas disponíveis.

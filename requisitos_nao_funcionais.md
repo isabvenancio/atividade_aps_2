@@ -116,36 +116,7 @@ RF-07, RF-08, RF-09.
 **Casos de teste relacionados:**  
 A definir.
 
-## RNF-05 — Tempo de resposta para consulta do histórico
-
-**Categoria:**  
-Desempenho.
-
-**Descrição:**  
-O sistema deve apresentar o histórico do usuário em até 2 segundos em 95% das consultas.
-
-**Justificativa:**  
-Permitir consulta rápida e eficiente às sugestões e pedidos anteriores do usuário.
-
-**Métrica/Critério mensurável:**  
-Pelo menos 95% das consultas ao histórico devem retornar resultado em até 2 segundos.
-
-**Escopo:**  
-Consulta ao histórico de sugestões e pedidos anteriores.
-
-**Prioridade:**  
-Média.
-
-**Status:**  
-Proposto.
-
-**Requisitos relacionados:**  
-RF-13.
-
-**Casos de teste relacionados:**  
-A definir.
-
-## RNF-06 — Disponibilidade mínima do sistema
+## RNF-05 — Disponibilidade mínima do sistema
 
 **Categoria:**  
 Disponibilidade.
@@ -174,7 +145,7 @@ RF-01, RF-02, RF-03, RF-04, RF-05, RF-06, RF-07, RF-08, RF-09, RF-10, RF-11, RF-
 **Casos de teste relacionados:**  
 A definir.
 
-## RNF-07 — Evitar registros parciais ou inconsistentes
+## RNF-06 — Evitar registros parciais ou inconsistentes
 
 **Categoria:**  
 Confiabilidade.
@@ -203,36 +174,7 @@ RF-07, RF-09, RF-10.
 **Casos de teste relacionados:**  
 A definir.
 
-## RNF-08 — Limite de etapas para obtenção da primeira sugestão
-
-**Categoria:**  
-Usabilidade.
-
-**Descrição:**  
-O fluxo para criação de um pedido de desculpas deve permitir que um usuário cadastrado chegue à primeira sugestão em no máximo 5 etapas principais de interação.
-
-**Justificativa:**  
-Tornar a utilização do sistema mais simples, direta e eficiente para o usuário.
-
-**Métrica/Critério mensurável:**  
-Um usuário cadastrado deve conseguir percorrer o fluxo até a primeira sugestão em no máximo 5 etapas principais de interação.
-
-**Escopo:**  
-Fluxo de criação do pedido e geração da primeira sugestão.
-
-**Prioridade:**  
-Média.
-
-**Status:**  
-Proposto.
-
-**Requisitos relacionados:**  
-RF-03, RF-04, RF-05, RF-06, RF-07.
-
-**Casos de teste relacionados:**  
-A definir.
-
-## RNF-09 — Uso restrito das informações pessoais e contextuais
+## RNF-07 — Uso restrito das informações pessoais e contextuais
 
 **Categoria:**  
 Privacidade.
@@ -257,35 +199,6 @@ Proposto.
 
 **Requisitos relacionados:**  
 RF-02, RF-07, RF-12, RF-14.
-
-**Casos de teste relacionados:**  
-A definir.
-
-## RNF-10 — Integridade das referências no histórico
-
-**Categoria:**  
-Integridade.
-
-**Descrição:**  
-Cada registro de histórico deve manter referência válida ao usuário e à sugestão correspondente.
-
-**Justificativa:**  
-Garantir consistência entre o histórico de utilização e os elementos que originaram cada registro.
-
-**Métrica/Critério mensurável:**  
-100% dos registros do histórico devem possuir referência válida a um usuário existente e a uma sugestão correspondente existente.
-
-**Escopo:**  
-Histórico de utilização.
-
-**Prioridade:**  
-Alta.
-
-**Status:**  
-Proposto.
-
-**Requisitos relacionados:**  
-RF-10, RF-13.
 
 **Casos de teste relacionados:**  
 A definir.
