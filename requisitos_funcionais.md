@@ -111,7 +111,7 @@ As informações ficam associadas ao usuário e disponíveis para utilização d
 - Dados inválidos.
 
 **Regras de negócio relacionadas:**  
-RN-01.
+RN-08.
 
 **Prioridade:**  
 Alta.
@@ -172,7 +172,7 @@ O pedido passa a existir e pode receber informações de situação, destinatár
 - Falha ao registrar o pedido.
 
 **Regras de negócio relacionadas:**  
-RN-02.
+RN-01.
 
 **Prioridade:**  
 Crítica.
@@ -550,7 +550,7 @@ A sugestão passa a estar disponível para consulta futura.
 - Falha na geração não deve produzir registro de sugestão concluída.
 
 **Regras de negócio relacionadas:**  
-RN-07, RN-12.
+RN-09.
 
 **Prioridade:**  
 Alta.
@@ -610,7 +610,7 @@ O feedback fica associado ao registro de uso da sugestão.
 - O usuário pode optar por não fornecer feedback.
 
 **Regras de negócio relacionadas:**  
-RN-08.
+RN-07.
 
 **Prioridade:**  
 Média.
