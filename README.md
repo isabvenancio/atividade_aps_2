@@ -29,9 +29,9 @@ O VazaApp é uma aplicação voltada à geração de sugestões de desculpas per
 
 A documentação do projeto está organizada nos seguintes arquivos:
 
-- [Regras de Negócio](regras-negocio.md)
-- [Requisitos Funcionais](requisitos-funcionais.md)
-- [Requisitos Não Funcionais](requisitos-nao-funcionais.md)
+- [Regras de Negócio](regras_negocio.md)
+- [Requisitos Funcionais](requisitos_funcionais.md)
+- [Requisitos Não Funcionais](requisitos_nao_funcionais.md)
 
 ## Estrutura do repositório
 
