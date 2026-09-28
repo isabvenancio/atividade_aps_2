@@ -33,7 +33,7 @@ Crítica.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-01, RF-02.
+RF-03.
 
 **Observações:**  
 A associação permite identificar o usuário responsável por cada pedido criado.
@@ -71,7 +71,7 @@ Crítica.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-03, RF-04.
+RF-04, RF-06.
 
 **Observações:**  
 A situação fornece o contexto inicial necessário para o processo de geração.
@@ -147,7 +147,7 @@ Crítica.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-07.
+RF-06.
 
 **Observações:**  
 Esta regra representa o caráter personalizado das sugestões oferecidas pelo VazaApp.
@@ -185,7 +185,7 @@ Alta.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-08.
+RF-07.
 
 **Observações:**  
 A categorização permite selecionar desculpas mais adequadas para diferentes situações.
@@ -223,7 +223,7 @@ Alta.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-09.
+RF-08.
 
 **Observações:**  
 A nova geração deve reutilizar as informações já existentes no pedido.
@@ -261,7 +261,7 @@ Média.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-11.
+RF-10.
 
 **Observações:**  
 O feedback poderá futuramente ser utilizado para avaliar a qualidade das sugestões.
@@ -337,7 +337,7 @@ Alta.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-10, RNF-03.
+RF-09, RNF-03.
 
 **Observações:**  
 A rastreabilidade permite identificar a origem de cada sugestão e recuperar informações relacionadas à sua geração.
