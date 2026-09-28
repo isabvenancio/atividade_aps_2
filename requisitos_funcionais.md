@@ -45,7 +45,7 @@ O usuário passa a possuir uma conta cadastrada no sistema.
 - Dados informados em formato inválido.
 
 **Regras de negócio relacionadas:**  
-RN-01.
+A definir.
 
 **Prioridade:**  
 Crítica.
