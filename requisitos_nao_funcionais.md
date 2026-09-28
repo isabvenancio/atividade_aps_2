@@ -24,7 +24,7 @@ Crítica.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-02, RF-03, RF-04, RF-05, RF-06, RF-07, RF-08, RF-09, RF-10, RF-11, RF-12, RF-13, RF-14.
+RF-02, RF-03, RF-04, RF-05, RF-06, RF-07, RF-08, RF-09, RF-10, RF-11.
 
 **Casos de teste relacionados:**  
 A definir.
@@ -82,7 +82,7 @@ Alta.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-10.
+RF-09.
 
 **Casos de teste relacionados:**  
 A definir.
@@ -140,7 +140,7 @@ Alta.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-01, RF-02, RF-03, RF-04, RF-05, RF-06, RF-07, RF-08, RF-09, RF-10, RF-11, RF-12, RF-13, RF-14, RF-15.
+RF-01, RF-02, RF-03, RF-04, RF-05, RF-06, RF-07, RF-08, RF-09, RF-10, RF-11, RF-11.
 
 **Casos de teste relacionados:**  
 A definir.
@@ -198,7 +198,7 @@ Alta.
 Proposto.
 
 **Requisitos relacionados:**  
-RF-02, RF-07, RF-12, RF-14.
+RF-02, RF-07, 
 
 **Casos de teste relacionados:**  
 A definir.
